@@ -1,0 +1,7 @@
+{
+  "app_title": "语言测试",
+  "language": "语言",
+  "welcome_message": "欢迎",
+  "days_since_release": "距离项目交付还有 {{number_of_days}} 天",
+  "programs": "程式"
+}

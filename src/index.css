@@ -5,11 +5,84 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #282c34;
+  background-color: #ffffff;
   color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav-bar {
+  display: flex;
+  padding-left: 1rem;
+  align-items: center;
+  /* justify-content: space-between; */
+  height: 4rem;
+  background-color: #ffffff;
+  color: black;
+}
+
+.nav-bar h2 {
+  margin-right: 1rem;
+  color: black;
+}
+
+.programs {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.button {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  margin-right: 1rem;
+  width: 64px;
+  height: 32px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.button p {
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.circle {
+  transition: all 0.5s;
+}
+
+.circle-left {
+  transform: translateX(-1rem);
+}
+
+.circle-right {
+  transform: translateX(1rem);
+}
+
+
+.button svg {
+  position: absolute;
+}
+
+.button-chinese {
+  margin-left: .3rem;
+}
+
+.button-english {
+  margin-right: .3rem;
+}
+
+.green-bar {
+  background-color: #55ca8a;
+  height: 16rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
 }

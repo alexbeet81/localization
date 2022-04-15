@@ -1,0 +1,7 @@
+{
+  "app_title": "Langauge Test",
+  "language": "Language",
+  "welcome_message": "Welcome",
+  "days_since_release": "There are {{ number_of_days }} days until project delivery.",
+  "programs": "Programs"
+}
